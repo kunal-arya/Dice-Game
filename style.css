@@ -79,8 +79,9 @@ h1 {
 
 .btn {
     padding: 0.5em 1.5em;
-    margin: 0 auto;
+    margin: 0 auto 0.5em;
     cursor: pointer;
+    display: block;
 }
 
 .btn-primary {
@@ -95,4 +96,13 @@ h1 {
 
 .hiddenBtn {
     display: none;
+}
+
+.usedBtn {
+    opacity: 0.4;
+    cursor: initial;
+}
+
+.usedBtn:hover {
+    box-shadow: none;
 }
